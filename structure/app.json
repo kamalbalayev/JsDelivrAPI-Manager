@@ -1,0 +1,100 @@
+{
+    "data": {
+
+        "domain": "node-packages.com",
+        "baseUrl": "http://localhost:9999",
+
+        "meta": {
+            "name": {
+                "en": "Node Package Manager",
+                "ru": "Node Package Manager",
+                "uk": "Node Package Manager"
+            },
+            "title": {
+                "en": "Node Package Manager",
+                "ru": "Node Package Manager",
+                "uk": "Node Package Manager"
+            },
+            "description": {
+                "en": "Node Package Manager Panel",
+                "ru": "Node Package Manager Panel",
+                "uk": "Node Package Manager Panel"
+            },
+            "keywords": {
+                "en": "Node Package Manager Panel",
+                "ru": "Node Package Manager Panel",
+                "uk": "Node Package Manager Panel"
+            },
+            "categories": []
+        },
+
+        "contact": {
+            "emails": [],
+            "phones": [],
+            "faxes": []
+        },
+
+        "social_networks": [
+            {
+                "name": "Facebook",
+                "key": "facebook",
+                "url": "",
+                "options": {
+                    "app_id": "",
+                    "pages": "",
+                    "admins": ""
+                }
+            },
+            {
+                "name": "Twitter",
+                "key": "twitter",
+                "url": "",
+                "options": {
+                    "site": "Node Package Manager",
+                    "account_id": ""
+                }
+            }
+        ],
+
+        "location": {
+            "address": "",
+            "map": {
+                "link": "",
+                "embed": ""
+            },
+            "country": {
+                "name": "Ukraina",
+                "code": "+380"
+            }
+        },
+
+        "locale": {
+
+            "default": "uk",
+
+            "list": [
+                {"code": "uk", "iso": "uk", "file": "uk_UA", "name": "Українська"},
+                {"code": "en", "iso": "en", "file": "en_EN", "name": "English"},
+                {"code": "ru", "iso": "ru", "file": "ru_RU", "name": "Русский"}
+            ]
+        }
+    },
+    "theme": {
+        "light_logo": "",
+        "dark_logo": "",
+        "share_cover": "",
+        "icon": "",
+        "colors": {
+            "light": {
+                "primary": "#c33630",
+                "lighten": "#f6f7fb",
+                "background": "#ffffff"
+            },
+            "dark": {
+                "primary": "#c33630",
+                "lighten": "#080c10",
+                "background": "#000000"
+            }
+        }
+    }
+}

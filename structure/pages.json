@@ -1,0 +1,114 @@
+[
+    {
+        "_id": "3f8d2a96-669c-431f-85b6-c240038d4761",
+        "config": {
+            "module": {
+                "name": "general",
+                "section": null
+            },
+            "route": {
+                "path": "index",
+                "i18n": null,
+                "redirect": {
+                    "type": null,
+                    "http": null,
+                    "to": null
+                },
+                "type": "dynamic",
+                "private": true,
+                "queries": [],
+                "group": "general",
+                "parent": null,
+                "childPage": null
+            },
+            "content": {
+                "type": "dynamic"
+            }
+        },
+        "name": {
+            "uk": "Головна панель",
+            "en": "Main dashboard",
+            "ru": "Главная панель"
+        },
+        "header": {
+            "menu": {
+                "display": true,
+                "position": "top",
+                "icon": "mdiHomeOutline"
+            }
+        },
+        "body": {
+            "wrapper": {
+                "options": {},
+                "components": [
+                    {
+                        "uid": "MainWrapper",
+                        "options": {},
+                        "components": []
+                    }
+                ]
+            }
+        }
+    },
+
+    {
+        "_id": "d83bd135-f2cd-4671-8aae-192ea432c7fc",
+        "config": {
+            "module": {
+                "name": "general",
+                "section": null
+            },
+            "route": {
+                "path": "apps-packages",
+                "i18n": {
+                    "path": "apps/packages/index",
+                    "slug": {
+                        "uk": "/paketi",
+                        "en": "/packages",
+                        "ru": "/paketi"
+                    }
+                },
+                "redirect": {
+                    "type": null,
+                    "http": null,
+                    "to": null
+                },
+                "middleware": null,
+                "type": "dynamic",
+                "private": true,
+                "queries": [],
+                "group": "apps",
+                "parent": null,
+                "childPage": null
+            },
+            "content": {
+                "type": "dynamic"
+            }
+        },
+        "name": {
+            "uk": "Пакети",
+            "en": "Packages",
+            "ru": "Пакеты"
+        },
+        "header": {
+            "menu": {
+                "display": true,
+                "position": "top",
+                "icon": "mdiPackageVariantClosedCheck",
+                "color": "teal"
+            }
+        },
+        "body": {
+            "wrapper": {
+                "options": {},
+                "components": [
+                    {
+                        "uid": "PackagesWrapper",
+                        "options": {},
+                        "components": []
+                    }
+                ]
+            }
+        }
+    }
+]

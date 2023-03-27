@@ -1,0 +1,15 @@
+{
+    "All": "Все",
+    "Total": "Всього",
+    "Name": "Ім'я",
+    "Type": "Тип",
+    "Hits": "Хіти",
+    "Versions": "Версії",
+    "Details": "Подробиці",
+    "Search _": "Пошук {n}",
+    "Go to package": "Перейти до пакету",
+    "Package": "Пакет",
+    "Popular packages": "Популярні пакети",
+    "Light mode": "Світловий режим",
+    "Dark mode": "Темний режим"
+}
